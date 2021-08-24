@@ -110,7 +110,9 @@ import java.util.regex.PatternSyntaxException;
 
 public final class String
     implements java.io.Serializable, Comparable<String>, CharSequence {
-    /** The value is used for character storage. */
+    /**
+     * Strng底层是使用字符数组存储
+     */
     private final char value[];
 
     /** Cache the hash code for the string */
